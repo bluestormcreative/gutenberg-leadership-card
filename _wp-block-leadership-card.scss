@@ -1,0 +1,49 @@
+//--------------------------------------------------------------
+// Leadership team member cards
+//
+//--------------------------------------------------------------
+
+
+.wp-block-leadership-team-card {
+	text-align: center;
+
+	.wp-block-image {
+		background-color: $color-pale-grey;
+		border-radius: 0;
+		margin: 48px auto 24px;
+		max-width: 290px;
+
+		@include media( '> desktop' ) {
+			margin-top: 0;
+		}
+
+		img {
+			min-height: 217px;
+			width: auto;
+		}
+	} // .wp-block-image
+
+	.leadership-card {
+
+		&__name {
+			font-size: 16px;
+			margin-top: -4px;
+		}
+
+		&__accreditations {
+			color: $color-steel;
+			font-size: 14px;
+			font-weight: $normal;
+			margin-top: 1px;
+			margin-bottom: 0;
+		}
+
+		&__title {
+			color: $color-cerulean-blue;
+			letter-spacing: 1px;
+			margin-top: 7px;
+			text-transform: uppercase;
+		}
+	} // .leadership-card
+} // .wp-block-leadership-team-card
+
